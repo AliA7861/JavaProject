@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUIdisplay.MenuPanel">
+  <grid id="27dc6" binding="menuPanel" layout-manager="GridLayoutManager" row-count="2" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="822" height="400"/>
+    </constraints>
+    <properties>
+      <focusable value="false"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="6e453" class="javax.swing.JButton" binding="skipBtn">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12303804"/>
+          <focusable value="false"/>
+          <icon value="skipForwardBtn.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="39d62" class="javax.swing.JButton" binding="PauseBtn">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12303804"/>
+          <focusable value="false"/>
+          <icon value="pauseBtn.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <vspacer id="f6cb6">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="ea214">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="f89e3">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="257d8">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="98b61">
+        <constraints>
+          <grid row="1" column="8" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="8b150" class="javax.swing.JButton" binding="PlayBtn">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12303804"/>
+          <focusable value="false"/>
+          <icon value="playBtn.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="3e016" class="javax.swing.JButton" binding="BackBtn">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12303804"/>
+          <focusable value="false"/>
+          <icon value="skipBackBtn.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ed98c" class="javax.swing.JButton" binding="QuitBtn">
+        <constraints>
+          <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12303804"/>
+          <focusable value="false"/>
+          <icon value="quitBtn.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="59d4d" class="javax.swing.JButton" binding="restartBtn">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12303804"/>
+          <focusable value="false"/>
+          <icon value="restartBtn.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <vspacer id="92984">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="ba957" class="javax.swing.JButton" binding="SaveBtn">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12303804"/>
+          <focusable value="false"/>
+          <icon value="saveBtn.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <vspacer id="b0713">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="17739" class="javax.swing.JButton" binding="LoadBtn">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12303804"/>
+          <focusable value="false"/>
+          <icon value="loadBtn.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <vspacer id="c291f">
+        <constraints>
+          <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="4f944" class="javax.swing.JButton" binding="ScoreBtn">
+        <constraints>
+          <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12303804"/>
+          <focusable value="false"/>
+          <icon value="scoreBtn.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <vspacer id="b54e8">
+        <constraints>
+          <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
